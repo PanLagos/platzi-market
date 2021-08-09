@@ -7,7 +7,7 @@ import org.springframework.data.repository.CrudRepository;
 import java.util.List;
 import java.util.Optional;
 
-public interface ProductoCrudRepostory extends CrudRepository <Producto, Integer>{
+public interface ProductoCrudRepository extends CrudRepository <Producto, Integer>{
 
     //utilizando query nativa
     //@Query(value = "SELECT * FROM productos WHERE id_categoria = ?", nativeQuery = true)
